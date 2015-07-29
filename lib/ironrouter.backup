@@ -1,0 +1,69 @@
+Router.configure({
+  layoutTemplate: "MasterLayout",
+  routeControllerNameConverter: "upperCamelCase"
+});
+
+Router.route('/', function() {
+  this.render('signupForm');
+}, {
+  name: 'begin'
+});
+
+Router.route('/instructions', function() {
+  this.render('instructions');
+}, {
+  name: 'instructions'
+});
+
+Router.route('/demographics', function() {
+  this.render('demographics');
+}, {
+  name: 'demographics'
+});
+  
+  this.route('messagesIndex', {
+    path: '/messages_index',
+    template: 'messagesIndex',
+    layoutTemplate: 'surveyLayout'
+  });  
+  
+  this.route('messagesDetail', {
+    path: '/messages_detail/:_id',
+    template: 'messagesDetail',
+    layoutTemplate: 'surveyLayout'
+  });
+  
+  this.route('practiceIndex', {
+    path: '/practice_index',
+    template: 'practiceIndex',
+    layoutTemplate: 'practiceLayout'
+  });
+  
+  this.route('practiceDetail', {
+    path: '/practice_detail/:_id',
+    template: 'practiceDetail',
+    layoutTemplate: 'practiceLayout'
+  });
+  
+  this.route('practiceQuestionsIndex', {
+    path:'/practice_questions_index',
+    template: 'practiceQuestionsIndex'
+  });
+  /*
+  this.route('questionsIndex',
+            {
+              path: '/questions',
+              template: 'questionsIndex'
+            });
+  */
+  this.route('practiceAnswers',
+             {
+               path: '/practice_answers',
+               template: 'practiceAnswers'
+             });
+  
+  this.route('linkPage',
+            {
+              path: '/link_page',
+              template: 'linkPage'
+            });

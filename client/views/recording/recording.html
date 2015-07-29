@@ -1,0 +1,25 @@
+<template name="recording">
+  <audio id="earnings" src="/audio/hereandnow.mp3"></audio>
+
+    <div class="well">
+      <span><h4>Please listen to the following news story and be prepared to answer questions about it.<br><br>Time remaining: <span id="timeleft"></span></h4>
+          <br>
+        <button class="btn btn-default btn-lg" id="playAudio"><span class="glyphicon glyphicon-play"></span>&nbsp;Play</button>&nbsp;&nbsp;
+        <button class="btn btn-default btn-lg" id="pauseAudio"><span class="glyphicon glyphicon-pause"></span>&nbsp;Pause</button>
+      </span>
+      <br>
+      <!--<span>Time remaining: </span><span id="timeleft"></span>-->
+    </div>
+    
+  <div class="notepad">
+    <textarea id="notes" placeholder="This is an optional area for you to take notes on the emails. Your notes will be saved and you will be able to view them on the next page to use when answering the questions."></textarea>
+  </div>
+  <br>
+  
+  {{#if audioHasEnded}}
+  <div>
+    <input type="submit" class="btn btn-primary btn-lg" value="Next"/>
+  </div>
+  {{/if}}
+  
+</template>

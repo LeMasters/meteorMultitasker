@@ -1,0 +1,24 @@
+<template name="surveyLayout">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        {{> notifications}}
+        <div class="well">
+          <h4><strong>This is the real HIT.</strong> You will be compensated based on your performance scheduling a meeting with the emails below and answering questions about the news story to the right. Read the emails in your inbox below and click <strong>Play</strong> to listen to the news story to the right.
+        <br />
+        <br />
+        You will receive a total of seven emails. They will not appear all at once. You have to wait for them all to appear. It will take approximately six minutes.
+        <br />
+        <br />
+        When it appears, click the 'Next' button to answer the remaining questions. <em>When reading your email, please <strong>do not</strong> use your browser's back button:  Use our 'Back to Inbox' button instead.</em>
+        </h4>
+        </div>
+        <br />
+        {{> yield}}
+      </div>
+      <div class="col-md-3">
+        {{> recording}}
+      </div>
+    </div>
+  </div>
+</template>

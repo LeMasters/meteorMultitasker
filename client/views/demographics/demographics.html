@@ -1,0 +1,48 @@
+<template name="demographics">
+  <h3>First, please fill out some quick demographic information</h3>
+  {{#if currentUser}}
+  <h5>Welcome, {{currentUser.username}}</h5>
+  {{/if}}
+
+  <form id="user-demographics" class="form-horizontal" role="form">
+    
+    <div class="form-group">
+      <label for="user-age" class="col-sm-2 control-label">Age (only years)</label>
+      <div class="col-sm-4">
+        <input type="text" id="user-age" class="form-control"/>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="user-work" class="col-sm-2 control-label">Work experience (in months)</label>
+      <div class="col-sm-4">
+        <input type="text" id="user-work" class="form-control"/>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Gender</label>
+      
+      <div class="col-sm-4">
+        <div class="radio">
+          <label for="male">
+            <input type="radio" name="gender" id="male" value="Male"/>
+          Male</label>
+        </div>
+        
+        <div class="radio">
+          <label for="female">
+            <input type="radio" name="gender" id="female" value="Female"/>
+          Female</label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <div class="col-sm-offset-6 col-sm-2">
+        <a href="{{pathFor 'messages.index'}}"><input type="submit" class="btn btn-default btn-lg" value="Next"/></a>
+      </div>
+    </div>
+  
+  </form>  
+</template>

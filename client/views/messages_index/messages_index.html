@@ -1,0 +1,12 @@
+<template name="messagesIndex">
+ <a href="{{pathFor 'messages.index'}}" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> <span class="inbox">&nbsp;Primary Inbox</span></a>
+  
+    <ul class="list-group">
+      {{#each messages}}
+      <li>
+        {{> MessagesItem}}
+      </li>
+      {{/each}}
+    </ul>
+
+</template>

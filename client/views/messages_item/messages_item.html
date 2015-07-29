@@ -1,0 +1,10 @@
+<template name="messagesItem">
+  
+    <a href="{{pathFor 'messages.detail' params=this}}" class="list-group-item {{hasReadClass}}">
+      <span class="{{hasBeenReadIcon}}"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="glyphicon glyphicon-share-alt"></span>
+      <span style="min-width: 120px; display: inline-block;">{{author}}</span>
+      <span>{{subject}}</span>
+      <span class="badge pull-right">{{time}}</span>
+    </a>
+</template>

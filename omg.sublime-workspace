@@ -1,0 +1,485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+					""
+				],
+				[
+					"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+					"Compile"
+				],
+				[
+					"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+					"Harmony"
+				]
+			],
+			[
+				"Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"xml2json"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"GitSavvy: help"
+			],
+			[
+				"HTML",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"javascript",
+				"Format: Javascript"
+			],
+			[
+				"beaut",
+				"Javascript Beautify"
+			],
+			[
+				"javasc",
+				"Javascript Beautify"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"process",
+				"Set Syntax: Processing"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 183.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/garrisonlemasters/hope"
+	],
+	"file_history":
+	[
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/router/meta.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/router/config.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/accounts/config.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/router/routes.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/collections/initFromZero.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/collections/items.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/controllers/app.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both/controllers/home.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/email/config.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/methods/items.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/permissions/items.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/publications/items.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/seeds/items.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/templates/404.handlebars",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/users/users.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server/permissions/account.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client/views/instructions/instructions.html",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client/views/instructions/instructions.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client/views/login/login.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client/views/login/login.html",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client/views/account/account.html",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client/views/login/accounts.js",
+		"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client/views/account/account.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/instructions/instructions.html",
+		"/Users/garrisonlemasters/GURS2015/lib/router.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/accounts/accounts.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/accounts/accounts.html",
+		"/Users/garrisonlemasters/multiTaskGU/lib/router.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/emailCatalog/emailCatalog.js",
+		"/Users/garrisonlemasters/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/garrisonlemasters/multiTaskGU/client/app.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/accounts/accounts.js.old",
+		"/Users/garrisonlemasters/multiTaskGU/client/app.html",
+		"/Users/garrisonlemasters/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/garrisonlemasters/multiTaskGU/collections/initFromZero.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/css/main.css",
+		"/Users/garrisonlemasters/Downloads/html5up-photon/index.html",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/emailCatalog/emailCatalog.html",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/layouts/admin_layout/admin_layout.html",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/layouts/master_layout/master_layout.html",
+		"/Users/garrisonlemasters/Library/Application Support/Sublime Text 3/Packages/GitSavvy/GitSavvy.sublime-settings",
+		"/Users/garrisonlemasters/multiTaskGU/server/exNihilo.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/emailCatalog/deprecated.html.backup",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/emailCatalog/emailCatalog.css.deprecated",
+		"/Users/garrisonlemasters/Desktop/multitaskingresearchbackupstuff.js",
+		"/Users/garrisonlemasters/multiTaskGU/client/views/configurator/configurator.html",
+		"/Users/garrisonlemasters/GURsch/client/views/configurator/configurator.html",
+		"/Users/garrisonlemasters/GURsch/client/views/layouts/master_layout/master_layout.html",
+		"/Users/garrisonlemasters/GURsch/client/views/configurator/configuratorMaster.js",
+		"/Users/garrisonlemasters/GURsch/client/views/emailCatalog/emailCatalog.html",
+		"/Users/garrisonlemasters/GURsch/client/views/emailCatalog/emailCatalog.js",
+		"/Users/garrisonlemasters/GURsch/client/app.html",
+		"/Users/garrisonlemasters/GURsch/lib/router.js",
+		"/Users/garrisonlemasters/GURsch/client/app.js",
+		"/Users/garrisonlemasters/GURsch/client/views/messages_index/messages_index.html",
+		"/Users/garrisonlemasters/GURsch/client/standardFooter.html",
+		"/Users/garrisonlemasters/GURsch/client/404.html",
+		"/Users/garrisonlemasters/GURsch/client/typicalHTMLBody.html.offline.html",
+		"/Users/garrisonlemasters/GURsch/client/collections/experiments.js",
+		"/Users/garrisonlemasters/GURsch/client/collections/emailInbox.js",
+		"/Users/garrisonlemasters/GURsch/client/collections/practice.js",
+		"/Users/garrisonlemasters/GURsch/client/views/emailCatalog/emailCatalog.css",
+		"/Users/garrisonlemasters/GURsch/client/views/configurator/configuratorMaster.css",
+		"/Users/garrisonlemasters/GURsch/shared/collections.js",
+		"/Users/garrisonlemasters/GURsch/client/views/accounts/accounts.html",
+		"/Users/garrisonlemasters/GURsch/client/views/layouts/practice_layout/practice_layout.html",
+		"/Users/garrisonlemasters/GURsch/client/views/accounts/accounts.js",
+		"/Users/garrisonlemasters/GURsch/client/views/instructions/instructions.html",
+		"/Users/garrisonlemasters/GURsch/client/views/demographics/demographics.html",
+		"/Users/garrisonlemasters/GURsch/client/collections/messages.js",
+		"/Users/garrisonlemasters/GURsch/client/collections/configuratorMaster.js",
+		"/Users/garrisonlemasters/GURsch/client/collections/configuratorMaster.html",
+		"/Users/garrisonlemasters/Documents/p5/textyPants/index.html",
+		"/Users/garrisonlemasters/GURsch/client/views/practice_index/practice_index.html",
+		"/Users/garrisonlemasters/GURsch/client/views/practice_index/practice_index.js",
+		"/Users/garrisonlemasters/Desktop/usa.svg",
+		"/Users/garrisonlemasters/Documents/Processing/calvert_county_library_space_invaders_prototype_SVG_handler/NEW_inv8tid.svg",
+		"/Users/garrisonlemasters/Documents/Processing/calvert_county_library_space_invaders_prototype/airport data",
+		"/Users/garrisonlemasters/Documents/Processing/calvert_county_library_space_invaders_prototype/inv8tid.svg",
+		"/Volumes/HardDrive320/Dox/Warehouse/RESCUE/Extensive Notes on Markdown Syntax.mdown.text",
+		"/Volumes/HardDrive320/Dox/Warehouse/RESCUE/Malaby on Governance.txt",
+		"/Users/garrisonlemasters/GUDashboard/GUDashboard.html",
+		"/Users/garrisonlemasters/GUDashboard/GUDashboard.css",
+		"/Users/garrisonlemasters/GUDashboard/GUDashboard.js",
+		"/Users/garrisonlemasters/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/garrisonlemasters/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/garrisonlemasters/Dropbox/canvisify.js",
+		"/Users/garrisonlemasters/GitHub/MultitaskingRsch/multitasking-master/multi_raw_data.csv",
+		"/Users/garrisonlemasters/Boxed Up 2015b/Default Sync Folder/July 18 2003 Notes Chris Lee Posthumanism.md",
+		"/Users/garrisonlemasters/GitHub/MultitaskingRsch/multitasking-master/mixpanelexport.py",
+		"/Users/garrisonlemasters/Downloads/p5/empty-example/sketch.js",
+		"/Users/garrisonlemasters/Dropbox/cct style programs Here are a few additional programs to consider.txt",
+		"/Users/garrisonlemasters/GitHub/MultitaskingRsch/multitasking-master/.meteor/packages",
+		"/Users/garrisonlemasters/Dropbox/Plato's Badger first draft intro.md",
+		"/Users/garrisonlemasters/Calibre Library/David Graeber/The Utopia of Rules_ On Technology, Stupidity, and the Secret Joys of Bureaucracy (36)/The Utopia of Rules_ On Technology, Stupid - David Graeber.txt",
+		"/Users/garrisonlemasters/GitHub/MultitaskingRsch/multitasking-master/lib/router.js",
+		"/Users/garrisonlemasters/Dropbox/lecture notes (source notes) Mar 18 2015.txt",
+		"/Users/garrisonlemasters/Dropbox/CCSWG WK2 Edited for lecture.txt",
+		"/Users/garrisonlemasters/Dropbox/draft material on poetics of mobile.md",
+		"/Users/garrisonlemasters/Boxed Up 2015a/Default Sync Folder/ITEL Nov 2013 Master Prop doc.md",
+		"/Users/garrisonlemasters/Dropbox/ProcessingSummer2014/cloudNinedotOnedotOne/web-export/index.html",
+		"/Users/garrisonlemasters/GitHub/todoApp/todoApp.html",
+		"/Users/garrisonlemasters/GitHub/todoApp/todoApp.js",
+		"/Users/garrisonlemasters/Box Sync/processing_brickbreaker.pde",
+		"/Users/garrisonlemasters/Dropbox/Arcade Theory Course Plan syllabus component March Revision.md",
+		"/Users/garrisonlemasters/Box Sync/computation lecture unused feb 2015.txt",
+		"/Users/garrisonlemasters/websites/codeCalvert/basisTemplate.html",
+		"/Users/garrisonlemasters/Box Sync/On the Nature and Essence of Programming Languages.md",
+		"/Users/garrisonlemasters/websites/codeCalvert/default.css",
+		"/Users/garrisonlemasters/websites/codeCalvert/index.html",
+		"/Users/garrisonlemasters/Box Sync/hour of code outcomes.txt",
+		"/Users/garrisonlemasters/Box Sync/codeCalvert site.txt",
+		"/Users/garrisonlemasters/Box Sync/A brief survey of the role of computers in Calvert.txt",
+		"/Users/garrisonlemasters/Box Sync/In this for the long term hack.txt",
+		"/Users/garrisonlemasters/Box Sync/Syllabus 2015 Spring Arcade Theory v2.mdown",
+		"/Users/garrisonlemasters/Box Documents/Default Sync Folder/Lecture Notes 28 September 2012 Heraclitus and Becoming (Sisyphus's conflicted copy 2012-09-29).md",
+		"/Users/garrisonlemasters/Dropbox/Lecture intro Nov 25 2014.txt",
+		"/Users/garrisonlemasters/Calibre Library/Unknown/Games, Learning, and Society (Learning in Doing_ Social, Cognitive and Computational Perspective (26)/Games, Learning, and Society (Learning in - Unknown.txt",
+		"/Users/garrisonlemasters/Dropbox/email re Prison Architect and Minecraft.txt",
+		"/Users/garrisonlemasters/Library/Application Support/VoodooPad/Styles.ar",
+		"/Users/garrisonlemasters/Dropbox/dictation tuesday lecture on history of thought and method in 20th C.txt",
+		"/Users/garrisonlemasters/Dropbox/Guidelines exhibition one.md",
+		"/Users/garrisonlemasters/Dropbox/CURRENT RESEARCH IDEAS.md",
+		"/Users/garrisonlemasters/Dropbox/Collaboration, Collectivity.md",
+		"/Users/garrisonlemasters/Dropbox/2-dimensional arrays are really just like excel sp",
+		"/Users/garrisonlemasters/Dropbox/conway utf 8 test.pde",
+		"/Users/garrisonlemasters/Dropbox/computationalTurnMore.txt",
+		"/Users/garrisonlemasters/Dropbox/computational turn draft material (mine) 2.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM",
+			"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/both,/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client,/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/private,/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/public,/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/server",
+			"/Users/garrisonlemasters/Desktop/GURSCH2015WEBSTORM/client",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"If you already have an account",
+			"Password (again)",
+			"(again)",
+			"signup2",
+			"xml",
+			"image",
+			"table",
+			"text",
+			"navigationTemplate",
+			" false,",
+			" true,",
+			"\\\\n",
+			"\\n",
+			"<head>",
+			"Meteor.startup",
+			"startup",
+			"Meteor.isClient()",
+			"isClient",
+			"footnote",
+			"ResearchScripts",
+			"addressFN",
+			"tip",
+			"\\?[0-9][0-9]\\s",
+			"\\.[0-9][0-9]\\s",
+			",[0-9]?[0-9]\\b ",
+			"click .list-group-item",
+			"click.list-group-item",
+			"click.",
+			"click .",
+			"IronLocation",
+			".route",
+			"Router.route",
+			"router.route",
+			".json",
+			"multi_raw_data",
+			"font",
+			"// ",
+			"#",
+			"pervert",
+			"Overview",
+			"- ",
+			"	",
+			"'",
+			"<br>",
+			"vga",
+			"10.0.1.42",
+			"addEventListener",
+			"display.contentHeight",
+			"display.contentWidth",
+			"-- ",
+			"canSizer",
+			"CHANNEL",
+			"\n	-- ",
+			"building([A-Z])",
+			"(^[\\w])",
+			"\\n\\|([0-9]\\.[0-9]\\|[0-9]\\.[0-9]\\|)",
+			"\\n\\|\\|([0-9]\\.[0-9])\\n",
+			"\\n\\|\\|([0-9]\\.[0-9])",
+			"\\n\\|\\|[0-9]\\.[0-9]",
+			"^[0-9]\\.[0-9]\\n",
+			"â€”",
+			"Ã¨",
+			"â€™",
+			"â€ ",
+			"â€“",
+			"Ã©",
+			"â€œ",
+			"Â  ",
+			"group_finalBuilding"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" \"false\",",
+			" \"true\",",
+			"",
+			"screenHeight",
+			"screenWidth",
+			"",
+			"canRadiusFinder",
+			" ",
+			"bldg\\1",
+			"\\|\\1",
+			"^\\|\\1",
+			"\\|\\1",
+			"|\\1\\|\\n",
+			"|\\1",
+			"|$1|",
+			"|$&|",
+			"$&",
+			"—",
+			"è",
+			"'",
+			"\"",
+			"–",
+			"é",
+			"\"",
+			"  ",
+			"Â  ",
+			"group_Building"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 45.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/JavaScript & Coffeescript Build Systems/xJs.sublime-build",
+	"project": "omg.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,93 @@
+<template name="practiceQuestionsIndex">
+  <div>
+    <h4>If you took any notes on the previous page, they are listed here:</h4>
+    <p>{{yourNotes}}</p>
+  </div>
+  
+  <h2>Questions</h2>
+  <br />
+  <form id="practiceQuestionsForm" role="form">
+    <div class="form-group">
+      <label class="control-label">What is the name of the famous Nike shoe being used in the World Cup?</label>
+      <div class="radio">
+        <label for="1option1"><input type="radio" name="q1" id="1option1" value="A"/>Nike Adizero</label>
+      </div>
+      <div class="radio">
+        <label for="1option2"><input type="radio" name="q1" id="1option2" value="B"/>Nike Flash</label>
+      </div>
+      <div class="radio">
+        <label for="1option3"><input type="radio" name="q1" id="1option3" value="C"/>Nike Vapors</label>
+      </div>
+      <div class="radio">
+        <label for="1option4"><input type="radio" name="q1" id="1option4" value="D"/>Nike Tricks</label>
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label class="control-label">How much do the cheaper Puma evoSPEED’s sell for?</label>
+      <div class="radio">
+        <label for="2option1"><input type="radio" name="q2" id="2option1" value="A"/>60.00</label>
+      </div>
+      <div class="radio">
+        <label for="2option2"><input type="radio" name="q2" id="2option2" value="B"/>70.00</label>
+      </div>
+      <div class="radio">
+        <label for="2option3"><input type="radio" name="q2" id="2option3" value="C"/>120.00</label>
+      </div>
+      <div class="radio">
+        <label for="2option4"><input type="radio" name="q2" id="2option4" value="D"/>50.00</label>
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label class="control-label">How many people could make a meeting on Monday?</label>
+      <div class="radio">
+        <label for="3option1"><input type="radio" name="q3" id="3option1" value="A"/>1</label>
+      </div>
+      <div class="radio">
+        <label for="3option2"><input type="radio" name="q3" id="3option2" value="B"/>2</label>
+      </div>
+      <div class="radio">
+        <label for="3option3"><input type="radio" name="q3" id="3option3" value="C"/>3</label>
+      </div>
+      <div class="radio">
+        <label for="3option4"><input type="radio" name="q3" id="3option4" value="D"/>None</label>
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label class="control-label">What is the meeting about?</label>
+      <div class="radio">
+        <label for="4option1"><input type="radio" name="q4" id="4option1" value="A"/>Planning for the annual holiday party</label>
+      </div>
+      <div class="radio">
+        <label for="4option2"><input type="radio" name="q4" id="4option2" value="B"/>A sales conference</label>
+      </div>
+      <div class="radio">
+        <label for="4option3"><input type="radio" name="q4" id="4option3" value="C"/>The latest financial results</label>
+      </div>
+      <div class="radio">
+        <label for="4option4"><input type="radio" name="q4" id="4option4" value="D"/>Problems with the sales tracking system</label>
+      </div>
+    </div>
+    <br>
+    <div class="form-group">
+      <label class="control-label">Who has the most flexible schedule?</label>
+      <div class="radio">
+        <label for="5option1"><input type="radio" name="q5" id="5option1" value="A"/>Jane</label>
+      </div>
+      <div class="radio">
+        <label for="5option2"><input type="radio" name="q5" id="5option2" value="B"/>Diego</label>
+      </div>
+      <div class="radio">
+        <label for="5option3"><input type="radio" name="q5" id="5option3" value="C"/>Bob</label>
+      </div>
+      <div class="radio">
+        <label for="5option4"><input type="radio" name="q5" id="5option4" value="D"/>David</label>
+      </div>
+    </div>
+    
+  </form>
+  <input type="submit" class="btn btn-default btn-lg" value="Next"/>
+  <hr>
+</template>

@@ -1,0 +1,16 @@
+<template name="practiceLayout">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        {{> notifications}}
+        <div class="well">
+          <h4>This is the practice task. Please read the emails in your inbox below and click 'Play' to listen to the news story to the right.<br /><br />You will receive a total of 3 emails. They will not appear all at once. You will have to wait for them all to appear. <br /><br />Click the 'Next' button when it appears to continue to the practice questions. When navigating the inbox, please do not use your browser's back button and instead use the 'Back to Inbox' button.</h4>
+        </div>
+        {{> yield}}
+      </div>
+      <div class="col-md-3">
+        {{> practiceRecording}}
+      </div>
+    </div>
+  </div>
+</template>
